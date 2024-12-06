@@ -384,28 +384,27 @@
     min-height: 50vh;
   }
 
- 
+  /* Section Latest news ============================= */
+
+  .section-latest-news .row {
+    flex-direction: row-reverse;
+
+  }
+
+  /* Section SERVICES ============================= */
+
+
+  .section-services .row {
+    flex-wrap: wrap;
+  }
 
   /* Section ABOUT US */
 
   .section-about-us [class*='col-'] {
     align-self: center;
   }
-
- /* Section Latest news ============================= */
-
- .section-latest-news .row {
-  flex-direction: row-reverse;
-
-}
-
-.section-services .row {
-  flex-wrap: wrap;
-}
   
   /*** 4. CARD ***/
-
-  
   
   /* Card (all styles)
       ============================= */
